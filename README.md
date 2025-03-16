@@ -3,26 +3,33 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/sXg0zrQH)
 
 =======
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7EnhtmxP)
->>>>>>> 07cbebd (add deadline)
-=======
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/4YnO6m9M)
->>>>>>> 767c721 (add deadline)
-=======
->>>>>>> origin/task-components
-=======
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vfN9WjdB)
->>>>>>> 6326ae8 (add deadline)
+
+> > > > > > > # 07cbebd (add deadline)
+> > > > > > >
+> > > > > > > [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/4YnO6m9M)
+> > > > > > > 767c721 (add deadline)
+> > > > > > > =======
+> > > > > > > origin/task-components
+> > > > > > > =======
+> > > > > > > [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vfN9WjdB)
+> > > > > > > 6326ae8 (add deadline)
+> > > > > > > =======
+> > > > > > > origin/task-forms
+
 # React TypeScript Tome Tasks
 
 Hello! This repository has been pre-configured with eslint, prettier, and a github actions workflow to automatically lint and format your code on every push. It'll also deploy your site for you.
 
 You'll complete programming problems by merging in upstream branches. Check out the textbook for more information: <https://frontend-fun.github.io/react-hooks-typescript-tome/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+
 # React TypeScript Starter Repo
 
 Hello! This repository has been pre-configured with eslint and gh-pages to automatically deploy your app when you push to the main branch.
@@ -41,6 +48,9 @@ You will, however, need to finish setting up the deployment.
 Back in this repository, go to `settings` -> `secrets` -> `Actions` and click the `New repository secret` button in the topright.
 
 Name the secret "GH_TOKEN" and paste in the token you copied in the previous step.
->>>>>>> origin/task-state
-=======
->>>>>>> origin/task-components
+
+> > > > > > > # origin/task-state
+> > > > > > >
+> > > > > > > # origin/task-components
+> > > > > > >
+> > > > > > > origin/task-forms
