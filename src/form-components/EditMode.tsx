@@ -6,12 +6,16 @@ export function EditMode(): React.JSX.Element {
     const [name, setName] = useState<string>("Your Name");
     const [isStudent, setIsStudent] = useState<boolean>(true);
 
-    // Clear name field ONLY when switching into edit mode for the first time
-    function toggleEditMode() {
-        setEditMode(!editMode);
-        if (!editMode && name === "Your Name") {
-            setName("");
-        }
+    function changeEditMode(event: React.ChangeEvent<HTMLInputElement>) {
+        setEditMode(event.target.checked);
+    }
+
+    function changeName(event: React.ChangeEvent<HTMLInputElement>) {
+        setName(event.target.value);
+    }
+
+    function changeStudentStatus(event: React.ChangeEvent<HTMLInputElement>) {
+        setIsStudent(event.target.checked);
     }
 
     return (
@@ -22,7 +26,7 @@ export function EditMode(): React.JSX.Element {
                 id="edit-mode-switch"
                 label="Edit Mode"
                 checked={editMode}
-                onChange={toggleEditMode}
+                onChange={changeEditMode}
             />
             {editMode ?
                 <div>
@@ -31,18 +35,15 @@ export function EditMode(): React.JSX.Element {
                         <Form.Control
                             type="text"
                             value={name}
-                            onChange={(e) => {
-                                setName(e.target.value);
-                            }}
+                            onChange={changeName}
                         />
                     </Form.Group>
                     <Form.Check
                         type="checkbox"
                         label="Student?"
+                        aria-label="Student"
                         checked={isStudent}
-                        onChange={(e) => {
-                            setIsStudent(e.target.checked);
-                        }}
+                        onChange={changeStudentStatus}
                     />
                 </div>
             :   <p>
